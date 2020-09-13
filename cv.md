@@ -12,3 +12,9 @@ https://https://github.com/Al2003x
 * HTML5/CSS
 * JS (beginner level)
 * Git (beginner level)
+
+## Education:
+
+* HTMLacademy
+* RS School
+* Freecodecamp
