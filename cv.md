@@ -26,7 +26,7 @@ No work experience at the moment
 
 ###
 ### Code example:
-
+```
 const piano = document.querySelector(".piano");
 const pianoKeys = document.querySelectorAll(".piano-key");
 const openFullScreen = document.querySelector(".openfullscreen");
