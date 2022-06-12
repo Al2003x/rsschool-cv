@@ -1,1 +1,3 @@
 # rsschool-cv
+https://Al2003x.github.io/rsschool-cv/cv
+https://Al2003x.github.io/rsschool-cv/
