@@ -36,17 +36,73 @@
     </header>
     <main>
       <div class="container">
-        <div class="photo">
-          <img
-            loading="lazy"
-            src="./assets/img/20200326_8281e946-150.jpg"
-            class="image"
-            width="150"
-            height="150"
-            alt=""
-          />
-        </div>
-        <h1>Vctor Danilov</h1>
+        <section class="about">
+          <h2>About</h2>
+          <div class="photo">
+            <img
+              loading="lazy"
+              src="./assets/img/20200326_8281e946-150.jpg"
+              class="image"
+              width="150"
+              height="150"
+              alt="Photo"
+            />
+          </div>
+          <h1>Vctor Danilov</h1>
+          <p>No work experience at the moment</p>
+        </section>
+        <section>
+          <h2>Education and courses:</h2>
+          <ol>
+            <li>
+              HTMLAcademy: Intensive course "Basic HTML & CSS", Profession
+              "React-developer #1"
+            </li>
+            <li>RSScholl: JSFE2022Q2</li>
+            <li>HTML, CSS, JS, Git video courses on YouTube channel</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Skills:</h2>
+          <ol>
+            <li>HTML</li>
+            <li>CSS3 & SCSS</li>
+            <li>Git</li>
+            <li>Gulp & webpack</li>
+            <li>Figma</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Code example:</h2>
+          <pre>
+const piano = document.querySelector(".piano");
+const pianoKeys = document.querySelectorAll(".piano-key");
+const openFullScreen = document.querySelector(".openfullscreen");
+const buttons = document.querySelectorAll(".btn");
+const btnContainer = document.querySelector(".btn-container");
+function playAudio(src) {
+  const audio = new Audio();
+  audio.src = src;
+  audio.currentTime = 0;
+  audio.play();
+}
+          </pre>
+        </section>
+        <section>
+          <h2>Language:</h2>
+          <p>English in the learning process</p>
+        </section>
+        <section>
+          <h2>Work</h2>
+          <ul class="work__list">
+            <li class="work__item">
+              <a class="work__link" href="https://al2003x.github.io/virtual-keyboard/">Virtual-keyboard</a>
+            </li>
+            <li class="work__item">
+              <a class="work__link" href="https://al2003x.github.io/virtual-piano/">Virtual-piano</a>
+            </li>
+          </ul>
+        </section>
       </div>
     </main>
     <footer>
