@@ -64,7 +64,8 @@ footer {
   height: 500px;
 }
 
-ol li {
+ol,
+li {
   padding: 10px 0;
   color:darkblue;
   font-size: 25px;
